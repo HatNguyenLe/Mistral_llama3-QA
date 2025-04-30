@@ -1,0 +1,13 @@
+# run
+python demogeneratetext.py
+
+# libraries
+pip install sentence-transformers torch
+
+
+# ollama
+ollama pull mistral-small  24B #Hyper-parameters
+ollama pull llama3
+
+ollama run mistral-small 
+ollama run llama3
